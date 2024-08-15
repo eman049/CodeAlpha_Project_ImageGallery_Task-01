@@ -1,0 +1,150 @@
+
+    h2{
+        text-align: center;
+        margin-top: 50px;
+        text-decoration: underline;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #9932dd;
+        font-size: 50px;
+        animation: colorChange 4s infinite, shadowChange 4s infinite;
+    }
+    
+    @keyframes colorChange {
+        0% { color: #9932dd; }
+        25% { color: #ff4500; }
+        50% { color: #1e90ff; }
+        75% { color: #32cd32; }
+        100% { color: #fcd422; }
+    }
+    
+    @keyframes shadowChange {
+        0% { text-shadow: 2px 2px 5px #ca9aeb; }
+        25% { text-shadow: 2px 2px 5px #fc0463; }
+        50% { text-shadow: 2px 2px 5px #ff0505; }
+        75% { text-shadow: 2px 2px 5px #79ff20; }
+        100% { text-shadow: 2px 2px 5px #f7bf07; }
+    }
+        body {
+        background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129325364/original/afaddcb9d7dfaaf5bff7ef04101935814665ac16/design-an-attractive-background-for-your-website.png);
+        background-repeat: no-repeat;
+        background-size: cover;   
+        margin: 0;
+        padding: 0;
+    }
+    
+    .Image_gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 90px;
+       
+    }
+    
+
+    .t_nail {
+        margin: 5px;
+        cursor:pointer;
+        transition: transform 0.2s;
+        
+    }
+    
+    .t_nail img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 4px transparent;
+        border-radius: 5px;
+        border-style: outset;
+        border-color: rgba(255, 170, 11, 0.966);
+
+    }
+    
+    .t_nail:hover {
+        transform: scale(1.1);
+    }
+    
+    .lightbox {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 40px;
+        left: 90px;
+        top: 5px;
+        bottom: 140px;
+        width: 85%;
+        height: 85%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.815);
+        border: 4px solid rgb(240, 238, 233);
+        
+    }
+    
+    .lightbox-content {
+        position: relative;
+        margin: auto;
+        padding: 20px 20px 20px 40px;
+        width: 80%;
+        max-width: 700px;
+    }
+    
+    .lightbox-slide {
+        display: none;
+    }
+    
+    .lightbox-slide img {
+        width: 70%;
+        height: 40%;
+        margin-left: 100px;
+    }
+    
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.4s;
+        user-select: none;
+    }
+    
+    .prev {
+        left: 0;
+    }
+    
+    .next {
+        right: 0;
+    }
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(255, 228, 77, 0.541);
+        border-style: outset;
+    }
+    
+  
+    
