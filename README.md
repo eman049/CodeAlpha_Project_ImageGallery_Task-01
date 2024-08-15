@@ -1,6 +1,6 @@
 ### **Animated Heading & Image Gallery**
 
-This webb based project showcases an image gallery with an animated heading. The gallery allows users to click on image thumbnails, which open a lightbox view with smooth image navigation. The heading at the top changes color and shadow dynamically using CSS animations.
+This web based project showcases an image gallery with an animated heading. The gallery allows users to click on image thumbnails, which open a lightbox view with smooth image navigation. The heading at the top changes color and shadow dynamically using CSS animations.
 
 ![image](https://github.com/user-attachments/assets/ab28a44b-965e-42b5-b60c-da93582c831c)
 
