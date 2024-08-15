@@ -5,7 +5,7 @@ This project showcases a simple image gallery with an animated heading. The gall
 ![image](https://github.com/user-attachments/assets/ab28a44b-965e-42b5-b60c-da93582c831c)
 
 ![image](https://github.com/user-attachments/assets/6a1f6278-b420-4657-a5bf-d29043ab7505)
-![Screenshot (2)](https://github.com/user-attachments/assets/0ae40f0d-1305-40a1-9fd9-798200512eac)
+
 
 
 
